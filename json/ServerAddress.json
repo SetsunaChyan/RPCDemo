@@ -1,0 +1,7 @@
+{
+    "server": [
+        {"address": "localhost", "port": 8000},
+        {"address": "localhost", "port": 8001}
+    ]
+}
+

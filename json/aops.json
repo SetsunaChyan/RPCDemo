@@ -1,0 +1,24 @@
+{
+    "aops": [
+        {
+            "method": "takeLogs",
+            "type": "after",
+            "target": "rpc.services.CardService.Login"
+        },
+        {
+            "method": "takeLogs",
+            "type": "after",
+            "target": "rpc.services.CardService.Save"
+        },
+        {
+            "method": "takeLogs",
+            "type": "after",
+            "target": "rpc.services.CardService.Withdraw"
+        },
+        {
+            "method": "takeLogs",
+            "type": "after",
+            "target": "rpc.services.CardService.Query"
+        }
+    ]
+}
